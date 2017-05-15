@@ -9,10 +9,16 @@
 .iphone {
   display: inline-block;
   margin-top: 150px;
+  position: relative;
 }
 
 .shape {
   background-image: url("../images/material.jpg");
   height: 128px;
   width: 128px;
+  position: absolute;
+  top: 54px;
+  right: 154px;
+  background-position: 0 0;
+  -webkit-mask-image: url("../images/apple.png");
 }

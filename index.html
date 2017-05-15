@@ -10,13 +10,16 @@
     <section class="container">
       <figure class="iphone" id="iphone">
         <img src="./images/iphone.jpg" alt="iPhone 6S">
-        <div class="shape"></div>
+        <div class="shape" id="mask"></div>
       </figure>
     </section>
     <script>
+      const iphone = document.getElementById("iphone")
+      const mask = document.getElementById("mask")
       window.addEventListener("scroll", function (e) {
-        const iphone = document.getElementById("iphone")
+
         console.log(window.scrollY)
+        mask.style.backgroundPosition = window.scrollY + "px";
 
       })
     </script>
