@@ -10,3 +10,9 @@
   display: inline-block;
   margin-top: 150px;
 }
+
+.shape {
+  background-image: url("../images/material.jpg");
+  height: 128px;
+  width: 128px;
+}

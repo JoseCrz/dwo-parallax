@@ -8,13 +8,16 @@
   </head>
   <body>
     <section class="container">
-      <figure class="iphone">
+      <figure class="iphone" id="iphone">
         <img src="./images/iphone.jpg" alt="iPhone 6S">
+        <div class="shape"></div>
       </figure>
     </section>
     <script>
       window.addEventListener("scroll", function (e) {
+        const iphone = document.getElementById("iphone")
         console.log(window.scrollY)
+
       })
     </script>
   </body>
