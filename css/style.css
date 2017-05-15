@@ -17,8 +17,8 @@
   height: 128px;
   width: 128px;
   position: absolute;
-  top: 54px;
-  right: 154px;
-  background-position: 0 0;
+  top: 75px;
+  right: 161px;
+  background-position: -54px;
   -webkit-mask-image: url("../images/apple.png");
 }
